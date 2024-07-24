@@ -1,0 +1,18 @@
+.is-hidden {
+    visibility: hidden;
+}
+
+#die-div {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.vertical {
+    display: block;
+}

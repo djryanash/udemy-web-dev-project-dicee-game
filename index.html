@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Will Win?</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <h1>Who Will Win?</h1>
+    <h2 id="player_names"></h2>
+    <button onclick="rollTheDice()" id="roll_the_dice">Roll the Dice</button>
+    <div id="die-div">
+        <img class="image" id="die-one" src="./assets/images/dice6.png" alt="die roll">
+        <img class="image" id="die-two" src="./assets/images/dice6.png" alt="die roll">
+    </div>
+    <script src="./index.js"></script>
+    <div class="vertical">
+    <button onclick="reloadPage()" id="reload_page_button" class="is-hidden">Play Again?</button>
+    </div>
+</body>
+</html>
